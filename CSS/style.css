@@ -1,0 +1,671 @@
+/*Paleta de colores
+color: 3F4F44 (verde claro)
+color: 2C3930 (verde oscuro)
+color: DCD7C9 (cremita)
+color: A27B5C (naranja)
+*/
+
+
+
+html, body, main {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+main {
+    overflow-x: clip;
+}
+
+header {
+    background-color: #3F4F40;
+    padding: 20px;
+}
+
+p, h1, h2, h3, h4 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+header ul {
+    display: grid;
+    grid-template-columns:  repeat(6, 1fr);
+    gap:10px;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    
+}
+
+.contact-menu-item {
+    background-color: #A27B5C;
+    padding: 15px 35px;
+}
+
+header li{
+    color: #DCD7C9;
+    list-style-type: none;
+    font-family: "Montserrat";
+}
+
+header a {
+    text-decoration: none;
+}
+
+.menu-icon {
+    justify-self: right;
+    padding-right: 30px;
+}
+
+h1, h2 {
+    color:#3F4F40;
+    font-size: 40px;
+    font-weight: 500;
+
+}
+
+
+h3{color: #3F4F44;
+    font-size: 36px;
+    font-weight: 500;
+text-align: center;}
+
+p {
+    color: #3F4F44;
+    font-size: 1em ;
+
+}
+
+img {
+    object-fit: cover;
+    object-position: center;
+    max-width: 100%;
+
+}
+
+.welcome{
+    background-color: #d9d9d99f;
+    backdrop-filter: blur(19.5px);
+    text-align: center;
+    width: 600px;
+    padding: 15px;
+    margin:auto;
+    border-radius: 10px;
+}
+
+.activities{
+    background-color: #DCD7C9;
+    text-align: center;
+}
+
+.flex-container { 
+    display: flex; 
+}
+.box{
+    background-color: #959a9c;
+    width: 350px;
+    height: 300px;
+    margin: auto;
+    padding: 30px;   
+}
+
+
+footer{
+    background-color:#2C3930
+}
+
+footer p{
+    color:#DCD7C9;
+    text-align: center;
+    }
+
+.hero-bkg {
+    background-image: url(../IMAGENES/HOME.jpg);
+    height: 700px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+button {
+    background-color:#3F4F44;
+    color: #DCD7C9;
+    padding: 10px 35px;
+    border: none;
+    cursor: pointer;
+}
+
+.ourstory-bkg {
+    background-image: url(../IMAGENES/OURSTORY.JPG);
+    height: 800px;
+    display: flex;
+    justify-content: flex-end;
+    background-size: cover;
+    background-position:initial;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.ourstory{
+    color: #DCD7C9;
+    background-color:#3F4F44;
+    width: 60%;
+    padding: 15px;
+    height: 70%;
+    border-radius: 30px 0 0 30px;
+    padding: 50px; 
+    
+}
+
+.ourstory h2, .ourstory p {
+    color: #DCD7C9;
+}
+
+
+.rooms h2, .rooms p{
+    color: #DCD7C9;
+    text-align: center;
+}
+.rooms {
+    color: #DCD7C9;
+    background-color:#3F4F44;
+    padding: 15px;
+    height: 20%;
+    padding: 20px 0; 
+    background-position: top;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.image-rooms {
+    max-height: 800px;
+    width: 100%;
+}
+
+.rooms-buttons ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+    align-content: space-evenly;
+    padding: 30px;
+}
+
+.rooms-buttons li {
+    background-color: #A27B5C ;
+    padding: 5px 20px;
+    list-style-type: none;
+}
+
+.restaurant-bkg{
+    display: flex;
+    justify-content: flex-end;
+    background-position:initial;
+    align-items: center;
+    margin-top: 30px;
+
+    
+}
+
+.image-restaurant {
+    height: 500px;
+    width: 50%;
+}
+
+
+.restaurant{
+    background-color:#DCD7C9;
+    width: 50%;
+    height: 500px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+
+.cava-bkg{    
+    background-image: url(../IMAGENES/imagen6.jpg);
+    height: 700px;
+    display: flex;
+    background-size: cover;
+    background-position:center;
+    padding: 20px;
+    align-items:end;
+    justify-content: center;
+
+}
+
+.cava h3, .cava p{
+    color: #DCD7C9;
+    text-align: center;
+}
+.cava{
+    background-color:#3F4F44 ;
+    width: 700px;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: -100px;
+}
+
+.cava button{
+    background-color: #A27B5C ;
+    margin: 0 30 px;
+}
+
+
+.contact-container {
+    display: flex;
+    background-color: #DCD7C9;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.contact-form-container {
+    max-width: 700px;
+    padding: 70px;
+    text-align: left;
+}
+
+
+.contact-image-container img {
+    max-width: 100%;
+    height: 100%;
+}
+
+
+input {
+    background-color:#DCD7C9;
+    border: 0 solid black;
+    border-bottom: solid 1px;
+    width: 100%;   
+}
+
+form {
+    width: 80%;
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    background-color: #F1EFE9;
+}
+
+input[type=submit] {
+    background-color:#3F4F44;
+    color: #DCD7C9;
+    padding: 10px 35px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.rooms-page {
+background-image: url(../IMAGENES/imagen4.jpg);
+height: 300px;
+display: flex;
+background-size: cover;
+background-position: center;
+padding: 20px;
+}
+
+.our-rooms h2, .our-rooms p {
+    color: #DCD7C9;
+}
+.our-rooms {
+        color: #DCD7C9;
+        background-color:#3F4F44;
+        background-position: top;
+        text-align: center;
+        margin-top: 30px;
+        padding-top: 20px;
+}
+
+.rooms-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0;
+}
+
+.room-card {
+    width: 470px;
+    background-color: #DCD7C9;
+    height: 100%;
+    text-align: left;
+
+}
+.room-card-text{
+    padding: 20px;
+}
+
+.room-card h3 {
+    text-align: left;
+    margin-top: 0
+}
+
+.room-card p {
+    color:#3F4F44 
+}
+
+.room-card button {
+    background-color:#A27B5C;
+}
+
+
+
+.spacious h3, .spacious p{
+    color: #DCD7C9;
+
+}
+.spacious{
+    background-color:#3F4F44 ;
+    width: 600px;
+    height: 200px;
+    padding: 10px;
+    padding-block: 10px 20px;
+    text-align: center;
+    margin-bottom: -100px;
+}
+
+.room-bkg, .room-bkg2, .room-bkg3 {
+    height: 700px;
+    display: flex;
+    background-size: cover;
+    background-position:center;
+    padding: 20px;
+    align-items:end;
+    justify-content: center;
+    margin-top: 30px;
+    }
+
+
+.room-bkg {
+    background-image: url(../IMAGENES/imagen16.jpg);
+}
+.room-bkg2{
+    background-image: url(../IMAGENES/imagen15.jpg);
+    margin-top: 120px;
+    }
+
+.room-bkg3{
+    background-image: url(../IMAGENES/imagen17.jpg);
+    margin-top: 120px;
+    margin-bottom: 120px
+    }
+
+.initial-page{
+background-image: url(../IMAGENES/imagen18.jpg);
+height: 300px;
+display: flex;
+background-size: cover;
+background-position: center;
+padding: 20px;
+}
+
+.activities-bkg{
+background-image: url(../IMAGENES/imagen19.jpg);
+height: 700px;
+display: flex;
+background-size: cover;
+background-position:center;
+padding: 20px;
+align-items:end;
+justify-content: center;
+margin-top: 30px;
+}
+
+.activities-container h2, .activities-container p{
+    color: #DCD7C9;
+}
+.activities-bkg button{
+    background-color: #A27B5C ;
+    padding: 10px 40px;
+    margin-top: 20px;
+}
+.activities-container{
+    background-color:#3F4F44 ;
+    width: 700px;
+    height: 250px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: -100px;
+}
+
+.map{
+    background-color: #3F4F44;
+    height: 600px;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    margin-top: 120px;
+}
+
+.map img {
+    height: 100%;
+}
+
+.reservation-container{
+    background-color: #DCD7C9;
+    height: 350px;
+    text-align: center;
+    padding: 20px;
+}
+
+.reservation-container input, .reservation-container textarea{
+    background-color: #F1EFE9;
+    padding: 7px;
+    margin: 10px 20px;
+    border:none;
+
+}
+.reservation-container button{
+    padding: 5px 60px;
+    margin-top: 30px;
+}
+
+.spa-bkg{
+    background-image: url(../IMAGENES/imagen20.jpg);
+    height: 700px;
+    display: flex;
+    background-size: cover;
+    background-position:center;
+    padding: 20px;
+    align-items:end;
+    justify-content: center;
+    margin-top: 30px;
+    }
+
+.spa-bkg h2, .spa-bkg p{
+    color: #DCD7C9;
+    padding: 0 20px;
+
+}
+
+.spa{
+    background-color: #DCD7C9;
+    margin-top: 120px;
+    display: flex;
+    height: 100%;
+    padding: 0 5%;
+    margin-bottom: 30px;
+    
+}
+
+.spa button{
+    background-color: #A27B5C;
+    margin-bottom: 40px;
+    padding: 5px 30px;
+}
+.spa image{
+    height: 100%;
+    width: 100%;
+}
+
+.spa-col1 {
+    width: 40%;
+    padding: 40px;
+    align-content: center;
+    text-align: center;
+
+}
+
+.spa-col2{
+    width: 60%;
+    padding: 8%;
+    align-content: center;
+}
+
+.spa-container h3{
+    margin-top: 0;
+}
+.spa-container{
+    background-color: #F1EFE9;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px
+}
+.reservation-container button{
+    background-color: #A27B5C;
+}
+.restaurant-page{
+background-image: url(../IMAGENES/imagen22.jpg);
+height: 300px;
+display: flex;
+background-size: cover;
+background-position: center;
+padding: 20px;
+}
+
+.restaurant-col{
+    background-color: #DCD7C9;
+    margin-top: 30px;
+    display: flex;
+    height: 100%;
+    padding: 0 5%;
+    margin-bottom: 30px;
+}
+
+.restaurant-col1 {
+    width: 50%;
+    padding: 40px;
+    align-content: center;
+    text-align: center;
+}
+
+.restaurant-col2{
+align-content: center;
+width: 50%;
+padding: 20px 30px;
+margin: 20px;
+}
+
+.restaurant-col2 img {
+    height: 500px;
+}
+
+.wine-bkg{
+    background-image: url(../IMAGENES/imagen6.jpg);
+    height: 700px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+.reservation-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+.reservation-form-col {
+    max-width: 500px;
+}
+
+.reservation-form input[type=submit] {
+    background-color: #3F4F44;
+}
+
+.reservation-form {
+    background-color: #DCD7C9;
+    text-align: center;
+    padding-top: 40px
+}
+
+.contact-page{
+    background-image: url(../IMAGENES/imagen23.jpg);
+    height: 300px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    }
+
+.contact-data{
+    background-color:#3F4F44;
+    height: 600px;
+    width: 40%;
+    margin-top: 30px;
+    text-align: center;
+    align-content: center;
+    border-radius: 20px;
+    margin: 50px;
+    }
+
+.contact-data h3,.contact-data p{
+    color: #DCD7C9;
+}
+
+.contact-data p{
+    font-size: 20px
+}
+
+.maps iframe{
+    height: 480px;
+    width: 100%;
+    margin-top: 30px
+}
+
+
+
+@media (max-width:750px) {
+    header ul{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .menu-item {
+        display: none;
+    }
+    .contact-image-container{
+        display:none
+    }
+    .cava {
+        width: 80%;
+    }
+    .flex-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .rooms-container{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        padding: 10px 0;
+    }
+    .room-card{
+        width: 80%;
+    }
+    
+    .rooms-buttons ul{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width:751px) {
+    .menu-icon {
+        display: none;
+    }
+}
+
+
